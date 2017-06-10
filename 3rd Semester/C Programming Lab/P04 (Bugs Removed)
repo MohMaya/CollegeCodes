@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+int main()
+{
+    char s[100];int l,flag2=0,flag3=0,i,c=-1;
+
+	printf("enter the url\n");
+	gets(s);
+	l=strlen(s);
+
+	char w[4]={'w','w','w','.'};
+	char w2[4];
+	
+
+	w2[0]=s[0];w2[1]=s[1];w2[2]=s[2];w2[3]=s[3];
+
+	if(strcmp(w,w2)!=0)
+	{
+		printf("INVALID");
+	}
+	else
+	{
+        int flag=0,end = l-1;
+
+        if( (s[end-3]=='.' && s[end-2]=='c' &&s[end-1]=='o'&&s[end]=='m') && l>7)
+        flag++;
+        else if( (s[end-2]=='.' && s[end-1]=='i' &&s[end]=='n') && l>6)
+        flag++;
+        else if( (s[end-3]=='.' && s[end-2]=='n' &&s[end-1]=='e'&&s[end]=='t') && l>7)
+        flag++;
+        else if( (s[end-3]=='.' && s[end-2]=='o' && s[end-1]=='r' &&s[end]=='g') && l>7)
+        flag++;
+
+
+
+        if(flag==1)
+            printf("VALID\n");
+        else
+            printf("INVALID\n");
+
+
+
+    }
+return 0;
+}
+
