@@ -2,7 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_02_DE_to_OD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_03_TH_to_ZB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_04_EG_to_XD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_05_OL_to_NA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_10_EX_to_XD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/assets/Playfair_Cipher_building_grid_omitted_letters.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_02_DE_to_OD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_03_TH_to_ZB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_04_EG_to_XD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_05_OL_to_NA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_10_EX_to_XD.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/assets/Playfair_Cipher_building_grid_omitted_letters.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/01 Substitution Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/02 Transposition Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/03 Play Fair Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/04 Hill Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/05 RSA Encryption/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/06 Vernam Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/07 Diffie-Hellman Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/08 64 bit DES/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/09 Hamming Code/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/10 TCP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/11 UDP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/12 Send Server Time/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/13 Encrypted File From Server To Client/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/14 Multicast System/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/15 Concurrent TCP/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/16 Client server message exchange/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/17 Djikstra's Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/18 Distance Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/19 Link State Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/20 Path Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/21 Stop and Wait Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/22 Sliding Window Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/23 MD5 /ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/24 SHA-1/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/C++/25 128-bit AES/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/01 Substitution Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/02 Transposition Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/03 Play Fair Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/04 Hill Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/05 RSA Encryption/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/06 Vernam Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/07 Diffie-Hellman Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/08 64 bit DES/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/09 Hamming Code/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/10 TCP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/11 UDP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/12 Send Server Time/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/13 Encrypted File From Server To Client/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/14 Multicast System/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/15 Concurrent TCP/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/16 Client server message exchange/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/17 Djikstra's Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/18 Distance Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/19 Link State Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/20 Path Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/21 Stop and Wait Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/22 Sliding Window Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/23 MD5 /ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/24 SHA-1/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java/25 128-bit AES/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/07 Diffie-Hellman Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/08 64 bit DES/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/09 Hamming Code/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/10 TCP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/11 UDP Connection/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/12 Send Server Time/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/13 Encrypted File From Server To Client/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/14 Multicast System/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/15 Concurrent TCP/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/16 Client server message exchange/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/17 Djikstra's Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/18 Distance Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/19 Link State Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/20 Path Vector Routing Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/21 Stop and Wait Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/22 Sliding Window Algorithm/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/23 MD5 /ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/24 SHA-1/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/25 128-bit AES/ReadMe.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,22 +109,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+        <entry file="file://$PROJECT_DIR$/Python3/07 Diffie-Hellman Algorithm/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="676">
-                <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -113,24 +185,6 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -144,8 +198,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python3/03 Play Fair Cipher" />
-      <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
+      <recent name="$PROJECT_DIR$/C++" />
+      <recent name="$PROJECT_DIR$/Java/04 Hill Cipher" />
+      <recent name="$PROJECT_DIR$/Java/05 RSA Encryption" />
+      <recent name="$PROJECT_DIR$/Java/06 Vernam Cipher" />
+      <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,9 +394,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -398,6 +454,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -407,6 +464,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -414,6 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -421,6 +480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -429,6 +489,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -436,6 +497,7 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,6 +562,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="676">
+            <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -508,11 +581,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+    <entry file="file://$PROJECT_DIR$/Python3/07 Diffie-Hellman Algorithm/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="676">
-            <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
