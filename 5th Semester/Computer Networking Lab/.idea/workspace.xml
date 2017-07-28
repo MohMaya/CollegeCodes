@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="390">
-                <caret line="26" column="178" lean-forward="false" selection-start-line="26" selection-start-column="178" selection-end-line="26" selection-end-column="178" />
+              <first_editor relative-caret-position="481">
+                <caret line="73" column="187" lean-forward="false" selection-start-line="73" selection-start-column="187" selection-end-line="73" selection-end-column="187" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -490,6 +490,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/assets/Playfair_Cipher_03_TH_to_ZB.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -498,16 +508,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="390">
-            <caret line="26" column="178" lean-forward="false" selection-start-line="26" selection-start-column="178" selection-end-line="26" selection-end-column="178" />
+          <first_editor relative-caret-position="481">
+            <caret line="73" column="187" lean-forward="false" selection-start-line="73" selection-start-column="187" selection-end-line="73" selection-end-column="187" />
             <folding />
           </first_editor>
           <second_editor />
