@@ -82,7 +82,8 @@ HI DE TH EG OL DI NT HE TR EX ES TU MP
 
 14. The pair MP forms a rectangle, replace it with IF
 
-
+Final Encrypted Bigram : 
+`BM OD ZB XD NA BE KU DM UI XM MO UV IF`
 
 ```
 Source : Wikipedia
