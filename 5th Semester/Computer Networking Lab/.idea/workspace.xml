@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,9 +40,9 @@
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="86" lean-forward="false" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -124,6 +123,13 @@
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
               <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -492,11 +498,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="86" lean-forward="false" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
             <folding />
           </first_editor>
           <second_editor />
