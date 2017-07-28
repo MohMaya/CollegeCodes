@@ -14,14 +14,18 @@ Consider the message 'ACT', and the key below (or GYBNQKURP in letters):
 
 Consider the message 'ACT', and the key below (or GYBNQKURP in letters):
 
-![Image Unavailable](https://github.com/MohMaya/CollegeCodes/raw/master/5th%20Semester/Computer%20Networking%20Lab/Python3/03%20Play%20Fair%20Cipher/assets/Playfair_Cipher_01_HI_to_BM.png "Step 1")
+![Image Unavailable](https://wikimedia.org/api/rest_v1/media/math/render/svg/93b997fb8b61b56bd670c74f34f98dd52461a7a5 "Step 1")
 
 Since 'A' is 0, 'C' is 2 and 'T' is 19, the message is the vector:
 
-<image2>
+![Image Unavailable](https://wikimedia.org/api/rest_v1/media/math/render/svg/85d9ae94a77a2d2999aeaeda1e4cf71e7e2f29db "Step 2")
 
 Thus the enciphered vector is given by:
 
-<image3>
+![Image Unavailable](https://wikimedia.org/api/rest_v1/media/math/render/svg/8b6e33f479fe19ff006d8a6f38076e3a29cb3239 "Step Final")
 
 which corresponds to a ciphertext of `POH`.
+
+```
+Source : Wikipedia
+```
