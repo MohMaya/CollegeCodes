@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/01 Substitution Cipher/ReadMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/01 Substitution Cipher/cipherDemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/01 Substitution Cipher/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/01 Substitution Cipher/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/02 Transposition Cipher/ReadMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,12 +28,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
+      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,6 +73,8 @@
         <option value="$PROJECT_DIR$/Python3/01 Substitution Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -113,13 +123,7 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="01 Substitution Cipher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Transposition Cipher" type="462c0819:PsiDirectoryNode" />
+              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,6 +138,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/03 Play Fair Cipher" />
       <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
     </key>
   </component>
@@ -433,6 +438,7 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="150">
             <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -475,6 +481,25 @@
         <state relative-caret-position="425">
           <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

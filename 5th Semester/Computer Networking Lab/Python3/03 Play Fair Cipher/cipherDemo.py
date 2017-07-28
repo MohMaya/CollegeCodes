@@ -1,4 +1,4 @@
-#Demo for XXXX Cipher By Shivanshu Chaudhary aka MOHMAYA
+#Demo for Play Fair Cipher By Shivanshu Chaudhary aka MOHMAYA
 
 
 def encryptor(originalMessage):        #Function for encrypting the originalMessage
