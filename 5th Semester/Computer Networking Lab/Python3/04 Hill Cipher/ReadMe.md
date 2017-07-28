@@ -14,7 +14,7 @@ Consider the message 'ACT', and the key below (or GYBNQKURP in letters):
 
 Consider the message 'ACT', and the key below (or GYBNQKURP in letters):
 
-<image1>
+![Image Unavailable](https://github.com/MohMaya/CollegeCodes/raw/master/5th%20Semester/Computer%20Networking%20Lab/Python3/03%20Play%20Fair%20Cipher/assets/Playfair_Cipher_01_HI_to_BM.png "Step 1")
 
 Since 'A' is 0, 'C' is 2 and 'T' is 19, the message is the vector:
 

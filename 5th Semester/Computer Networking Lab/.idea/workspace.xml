@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,22 +30,9 @@
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1290">
-                <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="197" lean-forward="false" selection-start-line="16" selection-start-column="197" selection-end-line="16" selection-end-column="197" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -531,8 +515,8 @@
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1290">
-            <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <first_editor relative-caret-position="181">
+            <caret line="47" column="197" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="197" />
             <folding />
           </first_editor>
           <second_editor />
@@ -541,9 +525,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="197" lean-forward="false" selection-start-line="16" selection-start-column="197" selection-end-line="16" selection-end-column="197" />
             <folding />
           </first_editor>
           <second_editor />
