@@ -24,7 +24,7 @@ There are several minor variations of the original Playfair cipher.
 
 ## Example
 
-![alt text](Python3/03 Play Fair Cipher/assets/Playfair_Cipher_01_HI_to_BM.png "Step 1")
+![alt text](https://github.com/MohMaya/CollegeCodes/raw/master/5th%20Semester/Computer%20Networking%20Lab/Python3/03%20Play%20Fair%20Cipher/assets/Playfair_Cipher_01_HI_to_BM.png "Step 1")
 
 
 ```
