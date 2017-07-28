@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="" />
+    <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +31,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/07 Diffie-Hellman Algorithm/ReadMe.md">
+        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1290">
+                <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,6 +80,7 @@
         <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
+        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -101,6 +120,17 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,11 +144,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
+      <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
+      <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
       <recent name="$PROJECT_DIR$/C++" />
       <recent name="$PROJECT_DIR$/Java/04 Hill Cipher" />
-      <recent name="$PROJECT_DIR$/Java/05 RSA Encryption" />
-      <recent name="$PROJECT_DIR$/Java/06 Vernam Cipher" />
-      <recent name="$PROJECT_DIR$/Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,8 +340,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2534722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -478,17 +509,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="676">
-            <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -502,6 +522,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1290">
+            <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
