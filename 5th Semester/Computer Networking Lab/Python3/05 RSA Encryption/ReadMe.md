@@ -54,5 +54,6 @@ Hence Our Encrypted message is 14763
 
 * m = (c<sup>d</sup>)%n = (14763<sup>14767</sup>) % 20567 = 123
 
-Hence The message is successfully recovered.
+Hence The message is successfully recovered.clear
+
 

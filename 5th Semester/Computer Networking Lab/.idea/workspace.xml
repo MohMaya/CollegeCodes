@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +30,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md">
+        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="766">
-                <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="123" lean-forward="false" selection-start-line="10" selection-start-column="123" selection-end-line="10" selection-end-column="123" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,6 +68,7 @@
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" />
+        <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -109,12 +112,6 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="05 RSA Encryption" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -524,22 +521,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
+    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="855">
+            <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md">
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="127" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="127" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="766">
-            <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="123" lean-forward="false" selection-start-line="10" selection-start-column="123" selection-end-line="10" selection-end-column="123" />
             <folding />
           </first_editor>
           <second_editor />
