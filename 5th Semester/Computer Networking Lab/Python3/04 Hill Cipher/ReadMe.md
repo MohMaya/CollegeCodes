@@ -26,6 +26,9 @@ Thus the enciphered vector is given by:
 
 which corresponds to a ciphertext of `POH`.
 
+## Decryption
+In order to decrypt, we turn the ciphertext back into a vector, then simply multiply by the inverse matrix of the key matrix (IFKVIVVMI in letters). (There are standard methods to calculate the inverse matrix; see matrix inversion for details.) 
+
 ```
 Source : Wikipedia
 ```

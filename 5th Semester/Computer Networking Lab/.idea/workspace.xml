@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/02 Transposition Cipher/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/02 Transposition Cipher/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-815">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="193">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="67" column="54" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -60,11 +84,14 @@
         <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/ReadMe.md" />
-        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/05 RSA Encryption/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/ReadMe.md" />
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md" />
+        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/client.py" />
+        <option value="$PROJECT_DIR$/Python3/02 Transposition Cipher/server.py" />
       </list>
     </option>
   </component>
@@ -97,6 +124,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,13 +141,18 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="05 RSA Encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="01 Substitution Cipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="02 Transposition Cipher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,11 +162,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
       <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
       <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
       <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
       <recent name="$PROJECT_DIR$/C++" />
-      <recent name="$PROJECT_DIR$/Java/04 Hill Cipher" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,7 +367,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22352941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -361,11 +394,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -374,7 +421,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
             <caret line="19" column="86" lean-forward="true" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -385,7 +431,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -395,7 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -403,7 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -411,24 +454,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -437,7 +477,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="150">
             <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -469,7 +508,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="285">
             <caret line="19" column="86" lean-forward="false" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -490,7 +528,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -501,7 +538,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="181">
             <caret line="47" column="197" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="197" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -512,18 +548,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="855">
             <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="127" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="127" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -534,17 +558,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="150">
             <caret line="10" column="162" lean-forward="false" selection-start-line="10" selection-start-column="162" selection-end-line="10" selection-end-column="162" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,14 +567,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1276">
           <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="250">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="323">
+            <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="67" column="54" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/02 Transposition Cipher/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
