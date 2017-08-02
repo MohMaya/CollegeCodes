@@ -1,3 +1,6 @@
+# to run, enter the following in terminal
+#python server.py & python client.py
+
 import socket
 
 s = socket.socket()
