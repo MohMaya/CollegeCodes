@@ -135,7 +135,8 @@ def joinDigrams(encryptedDigramList):
 key = "PLAYFAIR EXAMPLE"
 keyMatrix = prepareKeyMatrix(key)
 
-userInput = input("\nPlease Enter Your Desired Message : ")
+userInput = input("\nPlease Enter Your Desired Message [All Caps Only]: ")
+userInput = userInput.upper()
 digramList = breakIntoDigram(userInput)
 
 encryptedDigramList = encryptor(digramList,keyMatrix)
