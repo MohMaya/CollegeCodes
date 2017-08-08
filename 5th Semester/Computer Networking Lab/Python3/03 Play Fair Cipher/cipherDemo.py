@@ -188,7 +188,7 @@ def joinDigrams(decryptedDigramList):
     return originalMessage
 
 
-
+##Encryption
 key = "PLAYFAIR EXAMPLE"
 keyMatrix = prepareKeyMatrix(key)
 print(keyMatrix)
@@ -203,6 +203,8 @@ print(encryptedDigramList)
 
 #print("\nThe Encypted Message is  : "+encryptedList)
 
+
+##Decryption
 decryptedList = decryptor(encryptedDigramList,keyMatrix)
 print(decryptedList)
 
