@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="231" column="46" lean-forward="true" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding>
                 <element signature="e#94#149#0" expanded="false" />
                 <element signature="e#190#275#0" expanded="false" />
@@ -51,6 +52,54 @@
                 <element signature="e#3473#3704#0" expanded="false" />
                 <element signature="e#3776#4003#0" expanded="false" />
                 <element signature="e#4041#4158#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+              <folding>
+                <element signature="e#113#168#0" expanded="false" />
+                <element signature="e#209#294#0" expanded="false" />
+                <element signature="e#334#869#0" expanded="false" />
+                <element signature="e#927#2083#0" expanded="false" />
+                <element signature="e#2134#2434#0" expanded="false" />
+                <element signature="e#2475#2603#0" expanded="false" />
+                <element signature="e#2657#2964#0" expanded="false" />
+                <element signature="e#3015#3444#0" expanded="false" />
+                <element signature="e#3237#3421#0" expanded="false" />
+                <element signature="e#3492#3723#0" expanded="false" />
+                <element signature="e#3795#4022#0" expanded="false" />
+                <element signature="e#4060#4177#0" expanded="false" />
+                <element signature="e#4279#4622#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+              <folding>
+                <element signature="e#228#283#0" expanded="false" />
+                <element signature="e#324#409#0" expanded="false" />
+                <element signature="e#449#984#0" expanded="false" />
+                <element signature="e#1042#2198#0" expanded="false" />
+                <element signature="e#2249#2549#0" expanded="false" />
+                <element signature="e#2590#2718#0" expanded="false" />
+                <element signature="e#2772#3079#0" expanded="false" />
+                <element signature="e#3130#3559#0" expanded="false" />
+                <element signature="e#3352#3536#0" expanded="false" />
+                <element signature="e#3607#3838#0" expanded="false" />
+                <element signature="e#3910#4137#0" expanded="false" />
+                <element signature="e#4175#4292#0" expanded="false" />
+                <element signature="e#4395#4837#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,6 +143,8 @@
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/server.py" />
         <option value="$PROJECT_DIR$/Python3/03 Play Fair Cipher/client.py" />
         <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/client.py" />
+        <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
       </list>
     </option>
   </component>
@@ -125,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +192,12 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
+              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3" type="462c0819:PsiDirectoryNode" />
               <item name="04 Hill Cipher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -149,6 +205,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,9 +215,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
       <recent name="$PROJECT_DIR$/Python3/03 Play Fair Cipher" />
       <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
-      <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
       <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
       <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
     </key>
@@ -404,19 +461,19 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21529412" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51810586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21529412" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -745,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="231" column="46" lean-forward="true" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="e#94#149#0" expanded="false" />
             <element signature="e#190#275#0" expanded="false" />
@@ -760,6 +817,50 @@
             <element signature="e#3473#3704#0" expanded="false" />
             <element signature="e#3776#4003#0" expanded="false" />
             <element signature="e#4041#4158#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#168#0" expanded="false" />
+            <element signature="e#209#294#0" expanded="false" />
+            <element signature="e#334#869#0" expanded="false" />
+            <element signature="e#927#2083#0" expanded="false" />
+            <element signature="e#2134#2434#0" expanded="false" />
+            <element signature="e#2475#2603#0" expanded="false" />
+            <element signature="e#2657#2964#0" expanded="false" />
+            <element signature="e#3015#3444#0" expanded="false" />
+            <element signature="e#3237#3421#0" expanded="false" />
+            <element signature="e#3492#3723#0" expanded="false" />
+            <element signature="e#3795#4022#0" expanded="false" />
+            <element signature="e#4060#4177#0" expanded="false" />
+            <element signature="e#4279#4622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+          <folding>
+            <element signature="e#228#283#0" expanded="false" />
+            <element signature="e#324#409#0" expanded="false" />
+            <element signature="e#449#984#0" expanded="false" />
+            <element signature="e#1042#2198#0" expanded="false" />
+            <element signature="e#2249#2549#0" expanded="false" />
+            <element signature="e#2590#2718#0" expanded="false" />
+            <element signature="e#2772#3079#0" expanded="false" />
+            <element signature="e#3130#3559#0" expanded="false" />
+            <element signature="e#3352#3536#0" expanded="false" />
+            <element signature="e#3607#3838#0" expanded="false" />
+            <element signature="e#3910#4137#0" expanded="false" />
+            <element signature="e#4175#4292#0" expanded="false" />
+            <element signature="e#4395#4837#0" expanded="false" />
           </folding>
         </state>
       </provider>
