@@ -1,11 +1,11 @@
 #Demo for Hill Cipher By Shivanshu Chaudhary aka MOHMAYA
 
-from sympy import *
-
 
 def valueOfAlphabet(alphabet):
     value = ord(alphabet.upper())-ord('A')
     return value
+
+
 
 
 def alphabetOfValue(valueList):
@@ -18,55 +18,60 @@ def alphabetOfValue(valueList):
 
 
 
-def encryptor(originalMessage, key, n):        #Function for encrypting the originalMessage
 
-    keyValueList = prepareTextValueList(key)
+def determinant(matrix,order):
+    determinantValue = 20
+    if(order == 2):
+        pass
+    elif(order == 3):
+                        # detA = a11a22a33  + a21a32a13 + a31a12a23 - a11a32a23 - a31a22a13 - a21a12a33
+        determinantValue = (matrix[0][0]*matrix[1][1]*matrix[2][2]) + (matrix[1][0]*matrix[2][1]*matrix[0][2]) + (matrix[2][0]*matrix[0][1]*matrix[1][2]) - (matrix[0][0]*matrix[2][1]*matrix[1][2]) - (matrix[2][0]*matrix[1][1]*matrix[0][2]) - (matrix[1][0]*matrix[0][1]*matrix[2][2])
+    else:
+        #for order 4
+        pass
+    return determinantValue
 
-    invertibleMatrix = prepareInvertibleMatrix(keyValueList, n)
 
-    messageVectorList = prepareMessageVectorList(originalMessage, n)
 
-    encodedVector = prepareCodedVectorList(invertibleMatrix, messageVectorList, n)
 
-    encryptedMessage = vectorToMessage(encodedVector)
+def prepareAdjoint(matrix,order,modDeterminant):
+    if order == 3:
+        adjointMatrix = [[0 for i in range(3)] for j in range(3)]
 
-    return encryptedMessage
+        adjointMatrix[0][0] = (((matrix[1][1] * matrix[2][2]) - (matrix[1][2] * matrix[2][1]))*modDeterminant)%26
+        adjointMatrix[0][1] = (((matrix[0][2] * matrix[2][1]) - (matrix[0][1] * matrix[2][2]))*modDeterminant)%26
+        adjointMatrix[0][2] = (((matrix[0][1] * matrix[1][2]) - (matrix[0][2] * matrix[1][1]))*modDeterminant)%26
+
+        adjointMatrix[1][0] = (((matrix[1][2] * matrix[2][0]) - (matrix[1][0] * matrix[2][2]))*modDeterminant)%26
+        adjointMatrix[1][1] = (((matrix[0][0] * matrix[2][2]) - (matrix[0][2] * matrix[2][0]))*modDeterminant)%26
+        adjointMatrix[1][2] = (((matrix[0][2] * matrix[1][0]) - (matrix[0][0] * matrix[1][2]))*modDeterminant)%26
+
+        adjointMatrix[2][0] = (((matrix[1][0] * matrix[2][1]) - (matrix[1][1] * matrix[2][0]))*modDeterminant)%26
+        adjointMatrix[2][1] = (((matrix[0][1] * matrix[2][0]) - (matrix[0][0] * matrix[2][1]))*modDeterminant)%26
+        adjointMatrix[2][2] = (((matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0]))*modDeterminant)%26
+
+        return adjointMatrix
+    return [0,0]
+
 
 
 
 def invertMatrix(matrixToBeInverted, n):
-    print(matrixToBeInverted)
-    matrixToBeInverted = Matrix(matrixToBeInverted)
-    print(matrixToBeInverted)
-    invertedMatrix = matrixToBeInverted ** -1   # inverting the matrix using sympy library
-    print(invertedMatrix)
-    invertedMatrix = invertedMatrix.nullspace()
 
+    normalDeterminant = determinant(matrixToBeInverted, n)
 
-    for i in range(len(invertedMatrix)):
-        invertedMatrix[i]%=26
-    print(invertedMatrix)
+    modDeterminant = 0
+
+    while True:
+        if((modDeterminant*normalDeterminant)%26 == 1):
+            break
+        modDeterminant += 1
+
+    invertedMatrix = prepareAdjoint(matrixToBeInverted, n, modDeterminant)
+
     return invertedMatrix
 
 
-
-
-def decryptor(encryptedMessage, key, n):        #Function for decrypting the encryptedMessage
-    #logic for decrypting
-
-    keyValueList = prepareTextValueList(key)
-
-    invertibleMatrix = prepareInvertibleMatrix(keyValueList, n)
-
-    invertedMatrix = invertMatrix(invertibleMatrix, n)
-
-    encryptedMessageVectorList = prepareMessageVectorList(encryptedMessage, n)
-
-    decodedVector = prepareCodedVectorList(invertedMatrix, encryptedMessageVectorList, n)
-
-    decryptedMessage = vectorToMessage(decodedVector)
-
-    return decryptedMessage
 
 
 def prepareTextValueList(text):
@@ -75,6 +80,7 @@ def prepareTextValueList(text):
         textValueList.append(valueOfAlphabet(character))
 
     return textValueList
+
 
 
 
@@ -90,6 +96,7 @@ def prepareInvertibleMatrix(keyValueList,n):
             invertibleMatrix[i][j] = keyValueList[(n*i)+j]
 
     return invertibleMatrix
+
 
 
 
@@ -129,6 +136,7 @@ def matrixMultiply(matA, matB, order):
 
 
 
+
 def prepareCodedVectorList(invertibleMatrix, keyValueList, n):
     encodedVectorList = []
 
@@ -137,6 +145,7 @@ def prepareCodedVectorList(invertibleMatrix, keyValueList, n):
         encodedVectorList.append(encodedValueList)
 
     return encodedVectorList
+
 
 
 
@@ -149,26 +158,75 @@ def vectorToMessage(vector):
 
 
 
-key = "GYBNQKURP"
 
-message = "ACTIFY"
+def encryptor(originalMessage, key, n):        #Function for encrypting the originalMessage
+
+    keyValueList = prepareTextValueList(key)
+
+    invertibleMatrix = prepareInvertibleMatrix(keyValueList, n)
+
+    messageVectorList = prepareMessageVectorList(originalMessage, n)
+
+    encodedVector = prepareCodedVectorList(invertibleMatrix, messageVectorList, n)
+
+    encryptedMessage = vectorToMessage(encodedVector)
+
+    return encryptedMessage
+
+
+
+
+def decryptor(encryptedMessage, key, n):        #Function for decrypting the encryptedMessage
+    #logic for decrypting
+
+    encryptedKeyValueList = prepareTextValueList(key)
+
+    invertibleMatrix = prepareInvertibleMatrix(encryptedKeyValueList, n)
+
+    invertedMatrix = invertMatrix(invertibleMatrix,n)
+
+    messageVectorList = prepareMessageVectorList(encryptedMessage, n)
+
+    decodedVector = prepareCodedVectorList(invertedMatrix, messageVectorList, n)
+
+    decryptedMessage = vectorToMessage(decodedVector)
+
+    return decryptedMessage
+
+
+
 
 n = 3
 
-encryptedMessage = encryptor(message, key, n)
+while True:
+    key = input("Please Enter The Key \t\t: ")
+    key = key.upper()
+    if(len(key)!=9):
+        print("Invlaid Choice Of Key. Re-Enter..")
+        continue
 
+    if(determinant(prepareInvertibleMatrix(prepareTextValueList(key),3),3) != 0):
+        break
+    else:
+        print("Invlaid Choice Of Key. Re-Enter..")
+
+
+message = input("Kindly Enter The Message \t: ")
+message = message.upper()
+if(len(message)%3 == 1):
+    message = message+"XX"
+elif(len(message)%3 == 2):
+    message = message + "X"
+else:
+    pass
+
+
+
+
+encryptedMessage = encryptor(message, key, n)
 print("Encrypted Message : ",encryptedMessage)
 
 
 
 decryptedMessage = decryptor(encryptedMessage, key, n)
-
 print("Decrypted Message : ",decryptedMessage)
-
-#userInput = input("\nPlease Enter Your Desired Message : ")
-#encryptedMesasge = encryptor(userInput)
-
-#print("\nThe Encypted Message is  : "+encryptedMesasge)
-
-#originalMessage = decryptor(encryptedMesasge)
-#print("\nThe Decrypted Message is : "+originalMessage)
