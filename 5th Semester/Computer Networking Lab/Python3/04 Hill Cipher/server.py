@@ -218,7 +218,7 @@ while True:
         decryptedMessage = decryptedMessage[:-1]
     else:
         pass
-    
+
     print("Decrypted Message : ", decryptedMessage)
 
     c.close()

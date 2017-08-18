@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Computer_Networking_Lab$cipherDemo.coverage" NAME="cipherDemo Coverage Results" MODIFIED="1502412995729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3/05 RSA Encryption" />
+    <SUITE FILE_PATH="coverage/Computer_Networking_Lab$cipherDemo__2_.coverage" NAME="cipherDemo (2) Coverage Results" MODIFIED="1503018366150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
     <SUITE FILE_PATH="coverage/Computer_Networking_Lab$cipherDemo__1_.coverage" NAME="cipherDemo (1) Coverage Results" MODIFIED="1502813701165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3/04 Hill Cipher" />
   </component>
   <component name="DatabaseView">
@@ -35,72 +38,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
+        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding>
-                <element signature="e#94#149#0" expanded="false" />
-                <element signature="e#190#275#0" expanded="false" />
-                <element signature="e#315#850#0" expanded="false" />
-                <element signature="e#908#2064#0" expanded="false" />
-                <element signature="e#2115#2415#0" expanded="false" />
-                <element signature="e#2456#2584#0" expanded="false" />
-                <element signature="e#2638#2945#0" expanded="false" />
-                <element signature="e#2996#3425#0" expanded="false" />
-                <element signature="e#3218#3402#0" expanded="false" />
-                <element signature="e#3473#3704#0" expanded="false" />
-                <element signature="e#3776#4003#0" expanded="false" />
-                <element signature="e#4041#4158#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/client.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-              <folding>
-                <element signature="e#113#168#0" expanded="false" />
-                <element signature="e#209#294#0" expanded="false" />
-                <element signature="e#334#869#0" expanded="false" />
-                <element signature="e#927#2083#0" expanded="false" />
-                <element signature="e#2134#2434#0" expanded="false" />
-                <element signature="e#2475#2603#0" expanded="false" />
-                <element signature="e#2657#2964#0" expanded="false" />
-                <element signature="e#3015#3444#0" expanded="false" />
-                <element signature="e#3237#3421#0" expanded="false" />
-                <element signature="e#3492#3723#0" expanded="false" />
-                <element signature="e#3795#4022#0" expanded="false" />
-                <element signature="e#4060#4177#0" expanded="false" />
-                <element signature="e#4279#4622#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="355">
+              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/server.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
-              <folding>
-                <element signature="e#228#283#0" expanded="false" />
-                <element signature="e#324#409#0" expanded="false" />
-                <element signature="e#449#984#0" expanded="false" />
-                <element signature="e#1042#2198#0" expanded="false" />
-                <element signature="e#2249#2549#0" expanded="false" />
-                <element signature="e#2590#2718#0" expanded="false" />
-                <element signature="e#2772#3079#0" expanded="false" />
-                <element signature="e#3130#3559#0" expanded="false" />
-                <element signature="e#3352#3536#0" expanded="false" />
-                <element signature="e#3607#3838#0" expanded="false" />
-                <element signature="e#3910#4137#0" expanded="false" />
-                <element signature="e#4175#4292#0" expanded="false" />
-                <element signature="e#4395#4837#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,6 +107,9 @@
         <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/client.py" />
         <option value="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
+        <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" />
+        <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py" />
+        <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py" />
       </list>
     </option>
   </component>
@@ -155,7 +120,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="718" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -176,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,20 +159,12 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="03 Play Fair Cipher" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="04 Hill Cipher" type="462c0819:PsiDirectoryNode" />
+              <item name="06 Vernam Cipher" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,11 +174,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
       <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
       <recent name="$PROJECT_DIR$/Python3/03 Play Fair Cipher" />
       <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
       <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
-      <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cipherDemo (1)">
+  <component name="RunManager" selected="Python.cipherDemo (2)">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -401,6 +360,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="cipherDemo (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Computer Networking Lab" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="cipherDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -419,14 +396,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.cipherDemo" />
       <item index="1" class="java.lang.String" itemvalue="Python.cipherDemo (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cipherDemo (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.cipherDemo (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cipherDemo" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.cipherDemo (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.cipherDemo (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.cipherDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -457,14 +436,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21529412" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -496,6 +474,71 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="e#94#149#0" expanded="false" />
+            <element signature="e#190#275#0" expanded="false" />
+            <element signature="e#315#850#0" expanded="false" />
+            <element signature="e#908#2064#0" expanded="false" />
+            <element signature="e#2115#2415#0" expanded="false" />
+            <element signature="e#2456#2584#0" expanded="false" />
+            <element signature="e#2638#2945#0" expanded="false" />
+            <element signature="e#2996#3425#0" expanded="false" />
+            <element signature="e#3218#3402#0" expanded="false" />
+            <element signature="e#3473#3704#0" expanded="false" />
+            <element signature="e#3776#4003#0" expanded="false" />
+            <element signature="e#4041#4158#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#168#0" expanded="false" />
+            <element signature="e#209#294#0" expanded="false" />
+            <element signature="e#334#869#0" expanded="false" />
+            <element signature="e#927#2083#0" expanded="false" />
+            <element signature="e#2134#2434#0" expanded="false" />
+            <element signature="e#2475#2603#0" expanded="false" />
+            <element signature="e#2657#2964#0" expanded="false" />
+            <element signature="e#3015#3444#0" expanded="false" />
+            <element signature="e#3237#3421#0" expanded="false" />
+            <element signature="e#3492#3723#0" expanded="false" />
+            <element signature="e#3795#4022#0" expanded="false" />
+            <element signature="e#4060#4177#0" expanded="false" />
+            <element signature="e#4279#4622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <folding>
+            <element signature="e#228#283#0" expanded="false" />
+            <element signature="e#324#409#0" expanded="false" />
+            <element signature="e#449#984#0" expanded="false" />
+            <element signature="e#1042#2198#0" expanded="false" />
+            <element signature="e#2249#2549#0" expanded="false" />
+            <element signature="e#2590#2718#0" expanded="false" />
+            <element signature="e#2772#3079#0" expanded="false" />
+            <element signature="e#3130#3559#0" expanded="false" />
+            <element signature="e#3352#3536#0" expanded="false" />
+            <element signature="e#3607#3838#0" expanded="false" />
+            <element signature="e#3910#4137#0" expanded="false" />
+            <element signature="e#4175#4292#0" expanded="false" />
+            <element signature="e#4395#4837#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -636,17 +679,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -803,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding>
             <element signature="e#94#149#0" expanded="false" />
             <element signature="e#190#275#0" expanded="false" />
@@ -823,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
+        <state relative-caret-position="1560">
           <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
           <folding>
             <element signature="e#113#168#0" expanded="false" />
@@ -845,8 +888,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
+        <state relative-caret-position="635">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
           <folding>
             <element signature="e#228#283#0" expanded="false" />
             <element signature="e#324#409#0" expanded="false" />
@@ -862,6 +905,30 @@
             <element signature="e#4175#4292#0" expanded="false" />
             <element signature="e#4395#4837#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
