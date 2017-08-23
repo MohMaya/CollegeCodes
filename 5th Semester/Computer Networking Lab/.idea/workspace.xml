@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feeeef55-8ddb-45b1-b961-f1e830c5368a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Python3/05 RSA Encryption/server.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" afterPath="$PROJECT_DIR$/Python3/04 Hill Cipher/server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" afterPath="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,30 +36,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="cipherDemo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py">
+        <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            <state relative-caret-position="472">
+              <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,8 +75,12 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mesasge</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>message</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -110,6 +112,8 @@
         <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py" />
         <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py" />
         <option value="$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py" />
+        <option value="$PROJECT_DIR$/Python3/05 RSA Encryption/client.py" />
+        <option value="$PROJECT_DIR$/Python3/05 RSA Encryption/server.py" />
       </list>
     </option>
   </component>
@@ -141,8 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,12 +161,14 @@
               <item name="Computer Networking Lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Computer Networking Lab" type="462c0819:PsiDirectoryNode" />
               <item name="Python3" type="462c0819:PsiDirectoryNode" />
-              <item name="06 Vernam Cipher" type="462c0819:PsiDirectoryNode" />
+              <item name="05 RSA Encryption" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,11 +178,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
       <recent name="$PROJECT_DIR$/Python3/06 Vernam Cipher" />
       <recent name="$PROJECT_DIR$/Python3/04 Hill Cipher" />
       <recent name="$PROJECT_DIR$/Python3/03 Play Fair Cipher" />
       <recent name="$PROJECT_DIR$/Python3/02 Transposition Cipher" />
-      <recent name="$PROJECT_DIR$/Python3/05 RSA Encryption" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,6 +440,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -474,24 +479,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="e#94#149#0" expanded="false" />
-            <element signature="e#190#275#0" expanded="false" />
-            <element signature="e#315#850#0" expanded="false" />
-            <element signature="e#908#2064#0" expanded="false" />
-            <element signature="e#2115#2415#0" expanded="false" />
-            <element signature="e#2456#2584#0" expanded="false" />
-            <element signature="e#2638#2945#0" expanded="false" />
-            <element signature="e#2996#3425#0" expanded="false" />
-            <element signature="e#3218#3402#0" expanded="false" />
-            <element signature="e#3473#3704#0" expanded="false" />
-            <element signature="e#3776#4003#0" expanded="false" />
-            <element signature="e#4041#4158#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,21 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding>
-            <element signature="e#113#168#0" expanded="false" />
-            <element signature="e#209#294#0" expanded="false" />
-            <element signature="e#334#869#0" expanded="false" />
-            <element signature="e#927#2083#0" expanded="false" />
-            <element signature="e#2134#2434#0" expanded="false" />
-            <element signature="e#2475#2603#0" expanded="false" />
-            <element signature="e#2657#2964#0" expanded="false" />
-            <element signature="e#3015#3444#0" expanded="false" />
-            <element signature="e#3237#3421#0" expanded="false" />
-            <element signature="e#3492#3723#0" expanded="false" />
-            <element signature="e#3795#4022#0" expanded="false" />
-            <element signature="e#4060#4177#0" expanded="false" />
-            <element signature="e#4279#4622#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,21 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1545">
           <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding>
-            <element signature="e#228#283#0" expanded="false" />
-            <element signature="e#324#409#0" expanded="false" />
-            <element signature="e#449#984#0" expanded="false" />
-            <element signature="e#1042#2198#0" expanded="false" />
-            <element signature="e#2249#2549#0" expanded="false" />
-            <element signature="e#2590#2718#0" expanded="false" />
-            <element signature="e#2772#3079#0" expanded="false" />
-            <element signature="e#3130#3559#0" expanded="false" />
-            <element signature="e#3352#3536#0" expanded="false" />
-            <element signature="e#3607#3838#0" expanded="false" />
-            <element signature="e#3910#4137#0" expanded="false" />
-            <element signature="e#4175#4292#0" expanded="false" />
-            <element signature="e#4395#4837#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,20 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#94#149#0" expanded="false" />
-            <element signature="e#190#275#0" expanded="false" />
-            <element signature="e#315#850#0" expanded="false" />
-            <element signature="e#908#2064#0" expanded="false" />
-            <element signature="e#2115#2415#0" expanded="false" />
-            <element signature="e#2456#2584#0" expanded="false" />
-            <element signature="e#2638#2945#0" expanded="false" />
-            <element signature="e#2996#3425#0" expanded="false" />
-            <element signature="e#3218#3402#0" expanded="false" />
-            <element signature="e#3473#3704#0" expanded="false" />
-            <element signature="e#3776#4003#0" expanded="false" />
-            <element signature="e#4041#4158#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -836,31 +807,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3/04 Hill Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="e#94#149#0" expanded="false" />
-            <element signature="e#190#275#0" expanded="false" />
-            <element signature="e#315#850#0" expanded="false" />
-            <element signature="e#908#2064#0" expanded="false" />
-            <element signature="e#2115#2415#0" expanded="false" />
-            <element signature="e#2456#2584#0" expanded="false" />
-            <element signature="e#2638#2945#0" expanded="false" />
-            <element signature="e#2996#3425#0" expanded="false" />
-            <element signature="e#3218#3402#0" expanded="false" />
-            <element signature="e#3473#3704#0" expanded="false" />
-            <element signature="e#3776#4003#0" expanded="false" />
-            <element signature="e#4041#4158#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -868,21 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="218" column="0" lean-forward="true" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding>
-            <element signature="e#113#168#0" expanded="false" />
-            <element signature="e#209#294#0" expanded="false" />
-            <element signature="e#334#869#0" expanded="false" />
-            <element signature="e#927#2083#0" expanded="false" />
-            <element signature="e#2134#2434#0" expanded="false" />
-            <element signature="e#2475#2603#0" expanded="false" />
-            <element signature="e#2657#2964#0" expanded="false" />
-            <element signature="e#3015#3444#0" expanded="false" />
-            <element signature="e#3237#3421#0" expanded="false" />
-            <element signature="e#3492#3723#0" expanded="false" />
-            <element signature="e#3795#4022#0" expanded="false" />
-            <element signature="e#4060#4177#0" expanded="false" />
-            <element signature="e#4279#4622#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,35 +825,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding>
-            <element signature="e#228#283#0" expanded="false" />
-            <element signature="e#324#409#0" expanded="false" />
-            <element signature="e#449#984#0" expanded="false" />
-            <element signature="e#1042#2198#0" expanded="false" />
-            <element signature="e#2249#2549#0" expanded="false" />
-            <element signature="e#2590#2718#0" expanded="false" />
-            <element signature="e#2772#3079#0" expanded="false" />
-            <element signature="e#3130#3559#0" expanded="false" />
-            <element signature="e#3352#3536#0" expanded="false" />
-            <element signature="e#3607#3838#0" expanded="false" />
-            <element signature="e#3910#4137#0" expanded="false" />
-            <element signature="e#4175#4292#0" expanded="false" />
-            <element signature="e#4395#4837#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/cipherDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3/06 Vernam Cipher/server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="750">
           <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding />
         </state>
@@ -928,6 +848,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/cipherDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3/05 RSA Encryption/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
