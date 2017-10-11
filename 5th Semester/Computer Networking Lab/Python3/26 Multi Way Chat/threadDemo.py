@@ -40,3 +40,42 @@ sending_thread.start()
 receiving_thread.start()
 
 '''
+
+
+#Code For Listening
+import socket
+
+s = socket.socket()
+host = socket.gethostname()
+port = 8080
+
+s.bind((host,port))
+
+s.listen(5)
+
+while True:
+    c,addr = s.accept()
+    print("Got Connection From : ",addr)
+    encryptedMessage = (c.recv(2048)).decode('utf-8')
+    print("Server Received Message : ",encryptedMessage)
+    print("\nThe Decrypted Message is : " + originalMessage)
+    c.close()
+
+s.close
+
+
+#Code For Sending
+
+# DUMMY CODE FOR CLIENT
+import socket
+
+s = socket.socket()
+host = socket.gethostname()
+port = 8080
+
+userInput = input("\nPlease Enter Your Desired Message [All Caps Only]: ")
+s.connect((host, port))
+s.send(str.encode(userInput))
+print("Client Sent Message : ",userInput)
+
+s.close

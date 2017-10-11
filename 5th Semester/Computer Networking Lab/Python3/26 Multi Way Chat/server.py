@@ -1,28 +1,43 @@
+import threading
+from queue import Queue
 import socket
+import time
 
+message_q = Queue()
 s = socket.socket()
 host = socket.gethostname()
 port = 8080
-
-s.bind((host,port))
-
+s.bind((host, port))
 s.listen(5)
+c,addr = s.accept()
 
-while True:
-    c,addr = s.accept()
-    print("Got Connection From : ",addr)
-    encryptedMessage = (c.recv(2048)).decode('utf-8')
-    print("Server Received Message : ",encryptedMessage)
+class Sender(threading.Thread):
+    def run(self):
+        while True:
+            print("Snding")
+            message = input(">")
+            c.send(str.encode(message))
 
-    key = "PLAYFAIR EXAMPLE"
-    keyMatrix = prepareKeyMatrix(key)
 
-    encryptedDigramList = breakIntoDigram(encryptedMessage)
 
-    decryptedList = decryptor(encryptedDigramList, keyMatrix)
-    originalMessage = joinDigrams(decryptedList)
+class Receive(threading.Thread):
+    def run(self):
+        while True:
+            print("Rcving")
+            print("Connection Accepted")
+            data = c.recv(2048)
+            if not data:
+                continue
+            print("Data Got")
+            message = (data).decode('utf-8')
+            print("> Message : ", message)
+            
 
-    print("\nThe Decrypted Message is : " + originalMessage)
-    c.close()
 
-s.close
+
+
+sending_thread = Sender()
+receiving_thread = Receive()
+
+sending_thread.start()
+receiving_thread.start()
