@@ -7,30 +7,31 @@ message_q = Queue()
 s = socket.socket()
 host = socket.gethostname()
 port = 8080
-s.bind((host, port))
-s.listen(5)
-c,addr = s.accept()
+s.connect((host, port))
 
 class Sender(threading.Thread):
     def run(self):
+        name = input("Client name Please : ")
         while True:
-            print("Snding")
-            message = input(">")
-            c.send(str.encode(message))
-
-
+            message = input("> ")
+            if message == "exit":
+                s.close()
+                return
+            message = name + " Says :" + message
+            s.send(str.encode(message))
+            print("Message Sent")
 
 class Receive(threading.Thread):
     def run(self):
         while True:
-            print("Rcving")
-            print("Connection Accepted")
-            data = c.recv(2048)
+            data = s.recv(1024)
             if not data:
                 continue
-            print("Data Got")
             message = (data).decode('utf-8')
-            print("> Message : ", message)
+            message = message.split('$')
+            for i in message:
+                print("> ", i)
+
 
 
 
