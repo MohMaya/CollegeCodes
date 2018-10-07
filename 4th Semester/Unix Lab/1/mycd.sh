@@ -18,6 +18,4 @@ mycd()
                 echo "No directory with name $1"
         fi
 }
-
-
 mycd $1
