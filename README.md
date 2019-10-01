@@ -1,1 +1,1 @@
-# CollegeCodes( 3rd to 5th semester )
+# College Codes( 3rd - 5th semester )
