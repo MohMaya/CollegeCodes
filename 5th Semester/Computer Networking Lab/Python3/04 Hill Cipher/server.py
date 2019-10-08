@@ -1,4 +1,17 @@
-#Demo for Hill Cipher By Shivanshu Chaudhary aka MOHMAYA
+# to run, enter the following in terminal
+#python server.py & python client.py
+
+import socket
+
+s = socket.socket()
+host = socket.gethostname()
+port = 8080
+
+s.bind((host,port))
+
+s.listen(5)
+
+
 
 
 def valueOfAlphabet(alphabet):
@@ -158,24 +171,6 @@ def vectorToMessage(vector):
 
 
 
-
-def encryptor(originalMessage, key, n):        #Function for encrypting the originalMessage
-
-    keyValueList = prepareTextValueList(key)
-
-    invertibleMatrix = prepareInvertibleMatrix(keyValueList, n)
-
-    messageVectorList = prepareMessageVectorList(originalMessage, n)
-
-    encodedVector = prepareCodedVectorList(invertibleMatrix, messageVectorList, n)
-
-    encryptedMessage = vectorToMessage(encodedVector)
-
-    return encryptedMessage
-
-
-
-
 def decryptor(encryptedMessage, key, n):        #Function for decrypting the encryptedMessage
     #logic for decrypting
 
@@ -196,37 +191,36 @@ def decryptor(encryptedMessage, key, n):        #Function for decrypting the enc
 
 
 
-n = 3
-
 while True:
-    key = input("Please Enter The Key \t\t: ")
-    key = key.upper()
-    if(len(key)!=9):
-        print("Invlaid Choice Of Key. Re-Enter..")
-        continue
+    c,addr = s.accept()
+    print("Got Connection From : ",addr)
+    encryptedMessage = (c.recv(2048)).decode('utf-8')
+    print("Server Received Message : ",encryptedMessage)
 
-    if(determinant(prepareInvertibleMatrix(prepareTextValueList(key),3),3) != 0):
-        break
+    n = 3
+
+    while True:
+        key = input("Please Enter The Key \t\t: ")
+        key = key.upper()
+        if (len(key) != 9):
+            print("Invlaid Choice Of Key. Re-Enter..")
+            continue
+
+        if (determinant(prepareInvertibleMatrix(prepareTextValueList(key), 3), 3) != 0):
+            break
+        else:
+            print("Invlaid Choice Of Key. Re-Enter..")
+
+    decryptedMessage = decryptor(encryptedMessage, key, n)
+    if(decryptedMessage[-2] == "X"):
+        decryptedMessage = decryptedMessage[:-2]
+    elif(decryptedMessage[-1] == "X"):
+        decryptedMessage = decryptedMessage[:-1]
     else:
-        print("Invlaid Choice Of Key. Re-Enter..")
+        pass
 
+    print("Decrypted Message : ", decryptedMessage)
 
-message = input("Kindly Enter The Message \t: ")
-message = message.upper()
-if(len(message)%3 == 1):
-    message = message+"XX"
-elif(len(message)%3 == 2):
-    message = message + "X"
-else:
-    pass
+    c.close()
 
-
-
-
-encryptedMessage = encryptor(message, key, n)
-print("Encrypted Message : ",encryptedMessage)
-
-
-
-decryptedMessage = decryptor(encryptedMessage, key, n)
-print("Decrypted Message : ",decryptedMessage)
+s.close

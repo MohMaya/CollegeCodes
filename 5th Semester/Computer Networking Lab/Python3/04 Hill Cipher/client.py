@@ -1,4 +1,9 @@
-#Demo for Hill Cipher By Shivanshu Chaudhary aka MOHMAYA
+import socket
+
+s = socket.socket()
+host = socket.gethostname()
+port = 8080
+
 
 
 def valueOfAlphabet(alphabet):
@@ -158,7 +163,6 @@ def vectorToMessage(vector):
 
 
 
-
 def encryptor(originalMessage, key, n):        #Function for encrypting the originalMessage
 
     keyValueList = prepareTextValueList(key)
@@ -173,25 +177,6 @@ def encryptor(originalMessage, key, n):        #Function for encrypting the orig
 
     return encryptedMessage
 
-
-
-
-def decryptor(encryptedMessage, key, n):        #Function for decrypting the encryptedMessage
-    #logic for decrypting
-
-    encryptedKeyValueList = prepareTextValueList(key)
-
-    invertibleMatrix = prepareInvertibleMatrix(encryptedKeyValueList, n)
-
-    invertedMatrix = invertMatrix(invertibleMatrix,n)
-
-    messageVectorList = prepareMessageVectorList(encryptedMessage, n)
-
-    decodedVector = prepareCodedVectorList(invertedMatrix, messageVectorList, n)
-
-    decryptedMessage = vectorToMessage(decodedVector)
-
-    return decryptedMessage
 
 
 
@@ -224,9 +209,12 @@ else:
 
 
 encryptedMessage = encryptor(message, key, n)
-print("Encrypted Message : ",encryptedMessage)
 
 
 
-decryptedMessage = decryptor(encryptedMessage, key, n)
-print("Decrypted Message : ",decryptedMessage)
+
+s.connect((host, port))
+s.send(str.encode(encryptedMessage))
+print("Client Sent Message : ",encryptedMessage)
+
+s.close
